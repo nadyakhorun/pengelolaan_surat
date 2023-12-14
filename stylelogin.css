@@ -1,0 +1,50 @@
+body {
+    background-color: #0000CD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: white;
+    padding-block-start: 100px;
+    padding-block-end: 100px;
+    padding-inline-start: 250px;
+    padding-inline-end: 250px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Pusatkan elemen form */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="button"] {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+    margin-left: 225px;
+    margin-bottom: 20px; /* Tambahkan margin agar ada ruang antara logo dan input */
+}
